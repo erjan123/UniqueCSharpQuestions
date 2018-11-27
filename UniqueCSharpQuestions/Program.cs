@@ -1,4 +1,5 @@
 ﻿using System;
+using UniqueCSharpQuestions.Arrays;
 
 namespace UniqueCSharpQuestions
 {
@@ -6,7 +7,8 @@ namespace UniqueCSharpQuestions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DifferentWaysToIterateOverArrays1.IterateOverArrays1();
+            DifferentWaysToIterateOverArrays2.IterateOverArrays2();
         }
     }
 }

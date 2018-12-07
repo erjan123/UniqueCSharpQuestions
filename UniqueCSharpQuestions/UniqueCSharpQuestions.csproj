@@ -10,8 +10,4 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="System\Runtime\" />
-  </ItemGroup>
-
 </Project>

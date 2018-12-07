@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Reflection;
+using System.Linq;
+using UniqueCSharpQuestions.Classes;
 using arrays1 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays1;
 using arrays2 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays2;
 using arrays3 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays3;
@@ -15,6 +18,8 @@ namespace UniqueCSharpQuestions
             // arrays3.IterateOverArrays3();
 
             classes.ActivatorCreateInstance();
+            classes.CreateInstanceWithCompileLambda();
+
 
             Console.Read();
 

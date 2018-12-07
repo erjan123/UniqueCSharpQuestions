@@ -1,5 +1,8 @@
 ﻿using System;
-using UniqueCSharpQuestions.Arrays;
+using arrays1 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays1;
+using arrays2 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays2;
+using arrays3 = UniqueCSharpQuestions.Arrays.DifferentWaysToIterateOverArrays3;
+using classes = UniqueCSharpQuestions.Classes.CreateAnObjectWithoutNewKeyWord;
 
 namespace UniqueCSharpQuestions
 {
@@ -7,9 +10,14 @@ namespace UniqueCSharpQuestions
     {
         static void Main(string[] args)
         {
-            //DifferentWaysToIterateOverArrays1.IterateOverArrays1();
-            //DifferentWaysToIterateOverArrays2.IterateOverArrays2();
-            //DifferentWaysToIterateOverArrays3.IterateOverArrays3();
+            // arrays1.IterateOverArrays1();
+            // arrays2.IterateOverArrays2();
+            // arrays3.IterateOverArrays3();
+
+            classes.ActivatorCreateInstance();
+
+            Console.Read();
+
         }
     }
 }

@@ -51,7 +51,9 @@ namespace UniqueCSharpQuestions.Classes
                 Console.WriteLine();
             }
 
-        #endregion 2. Compile Lambda Expressions
+        #endregion
+
+        #region 2. Compile Lambda Expressions
 
         public static void CreateInstanceWithCompileLambda()
         {
@@ -105,5 +107,7 @@ namespace UniqueCSharpQuestions.Classes
             ObjectActivator<T> compiled = (ObjectActivator<T>)lambda.Compile();
             return compiled;
         }
+
+        #endregion
     }
 }
